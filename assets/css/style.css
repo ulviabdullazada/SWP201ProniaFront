@@ -1,0 +1,46 @@
+:root{
+    --main : #abd373;
+}
+::selection{
+    background-color: var(--main) !important;
+    color: #fff;
+}
+body.light{
+    background-color: rgb(247, 253, 248);
+}
+body.dark{
+    background-color: rgb(21, 21, 21);
+}
+ul{
+    float: right;
+}
+ul li{
+    display: inline-block;
+}
+.dark ul li svg{
+    color: #fff;
+}
+.dark header a{
+    color: #fff;
+}
+ul li svg{
+    width: 22px;
+    cursor: pointer;
+}
+header a{
+    color: var(--main);
+    text-decoration: none;
+}
+header{
+    border-bottom: 2px solid gainsboro;
+}
+.btn{
+    padding: 10px 50px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+.btn-main{
+    background-color: var(--main);
+    color: #fff;
+}
